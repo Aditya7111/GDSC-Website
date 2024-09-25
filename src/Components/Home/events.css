@@ -1,0 +1,19 @@
+.Session h2 {
+  margin-top: 3rem;
+  font-size: 35px;
+  color: #141718;
+  margin-bottom: 3rem;
+}
+
+.Session_Cards {
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Session_Cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}

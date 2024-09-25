@@ -1,0 +1,16 @@
+.Footer_Social i{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.Footer_Social{
+    border-top: solid #333 2px ;
+    padding: 3rem;
+}
+.icon-link {
+  color: inherit;
+  text-align: inherit;
+}
+.Footer_Social i:hover{
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+}
